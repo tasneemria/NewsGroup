@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="462.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="news.groupf.FirstPageController">
+   <children>
+      <Label alignment="CENTER" layoutX="187.0" layoutY="33.0" prefHeight="42.0" prefWidth="230.0" text="Select Course No.">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <VBox layoutX="225.0" layoutY="102.0" prefHeight="333.0" prefWidth="156.0">
+         <children>
+            <Button mnemonicParsing="false" onAction="#ButtonCSE201" prefHeight="32.0" prefWidth="156.0" text="CSE201" />
+            <Button layoutX="10.0" layoutY="10.0" mnemonicParsing="false" onAction="#ButtonCSE202" prefHeight="32.0" prefWidth="156.0" text="CSE202" />
+            <Button layoutX="10.0" layoutY="42.0" mnemonicParsing="false" onAction="#ButtonCSE203" prefHeight="32.0" prefWidth="156.0" text="CSE203" />
+            <Button layoutX="10.0" layoutY="74.0" mnemonicParsing="false" onAction="#ButtonCSE204" prefHeight="32.0" prefWidth="156.0" text="CSE204" />
+            <Button layoutX="10.0" layoutY="106.0" mnemonicParsing="false" onAction="#ButtonCSE205" prefHeight="32.0" prefWidth="156.0" text="CSE205" />
+            <Button layoutX="10.0" layoutY="138.0" mnemonicParsing="false" onAction="#ButtonCSE206" prefHeight="32.0" prefWidth="156.0" text="CSE206" />
+            <Button layoutX="10.0" layoutY="170.0" mnemonicParsing="false" onAction="#ButtonEEE263" prefHeight="32.0" prefWidth="156.0" text="EEE263" />
+            <Button layoutX="10.0" layoutY="202.0" mnemonicParsing="false" onAction="#ButtonEEE264" prefHeight="32.0" prefWidth="156.0" text="EEE264" />
+            <Button layoutX="10.0" layoutY="234.0" mnemonicParsing="false" onAction="#ButtonMATH241" prefHeight="32.0" prefWidth="156.0" text="MATH241" />
+         </children>
+      </VBox>
+   </children>
+</AnchorPane>

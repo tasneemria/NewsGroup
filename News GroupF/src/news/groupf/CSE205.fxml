@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="601.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="news.groupf.CSE205Controller">
+   <children>
+      <TextArea fx:id="WritePost" layoutX="25.0" layoutY="514.0" prefHeight="51.0" prefWidth="552.0" />
+      <Button layoutX="515.0" layoutY="565.0" mnemonicParsing="false" onAction="#postButtonAction" prefHeight="25.0" prefWidth="63.0" text="Post" />
+      <VBox fx:id="pane_main_grid" layoutX="25.0" layoutY="35.0" prefHeight="475.0" prefWidth="552.0" />
+      <Label alignment="CENTER" layoutX="253.0" layoutY="14.0" prefHeight="17.0" prefWidth="90.0" text="CSE205" />
+      <Button layoutX="25.0" layoutY="565.0" mnemonicParsing="false" onAction="#BackButtonAction" prefHeight="25.0" prefWidth="63.0" text="Back" />
+   </children>
+</AnchorPane>

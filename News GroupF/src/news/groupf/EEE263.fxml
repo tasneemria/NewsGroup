@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="628.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="news.groupf.EEE263Controller">
+   <children>
+      <Button layoutX="493.0" layoutY="575.0" mnemonicParsing="false" onAction="#postButtonAction" prefHeight="25.0" prefWidth="62.0" text="Post" />
+      <Label alignment="CENTER" layoutX="247.0" layoutY="6.0" prefHeight="25.0" prefWidth="97.0" text="EEE263" />
+      <VBox fx:id="pane_main_grid" layoutX="26.0" layoutY="43.0" prefHeight="452.0" prefWidth="532.0" />
+      <TextArea fx:id="WritePost" layoutX="33.0" layoutY="512.0" prefHeight="63.0" prefWidth="523.0" />
+      <Button layoutX="33.0" layoutY="575.0" mnemonicParsing="false" onAction="#BackButtonAction" prefHeight="25.0" prefWidth="62.0" text="Back" />
+   </children>
+</AnchorPane>

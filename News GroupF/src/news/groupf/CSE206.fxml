@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="624.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="news.groupf.CSE206Controller">
+   <children>
+      <TextArea fx:id="WritePost" layoutX="19.0" layoutY="525.0" prefHeight="60.0" prefWidth="562.0" />
+      <Button layoutX="522.0" layoutY="585.0" mnemonicParsing="false" onAction="#postButtonAction" prefHeight="25.0" prefWidth="59.0" text="Post" />
+      <VBox prefHeight="200.0" prefWidth="100.0" />
+      <VBox fx:id="pane_main_grid" layoutX="17.0" layoutY="33.0" prefHeight="485.0" prefWidth="562.0" />
+      <Label layoutX="284.0" layoutY="6.0" text="CSE206" />
+      <Button layoutX="17.0" layoutY="585.0" mnemonicParsing="false" onAction="#BackButtonAction" prefHeight="25.0" prefWidth="59.0" text="Back" />
+   </children>
+</AnchorPane>
